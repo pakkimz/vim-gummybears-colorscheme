@@ -47,7 +47,6 @@
 "  search selection: #07281C  7:40:28
 "  line number: #3D3D3D  61:61:61
 
-
 " ********************************************************************************
 " The following are the preferred 16 colors for your terminal
 "           Colors      Bright Colors
@@ -59,7 +58,6 @@
 " Magenta   #FF73FD     #FF9CFE
 " Cyan      #C6C5FE     #DFDFFE
 " White     #EEEEEE     #FFFFFF
-
 
 " ********************************************************************************
 
@@ -75,7 +73,6 @@ let g:colors_name = "gummybears"
 if !has("gui_running") && &t_Co != 88 && &t_Co != 256
 	finish
 endif
-
 
 "hi Example         guifg=NONE        guibg=NONE        gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 
@@ -93,7 +90,7 @@ hi  StatusLineNC guifg=#000000 guibg=#202020 gui=bold      ctermfg=0     ctermbg
 hi  FoldColumn   guifg=#a0a8b0 guibg=#384048 gui=NONE      ctermfg=248   ctermbg=238  cterm=NONE
 hi  Folded       guifg=#a0a8b0 guibg=#384048 gui=NONE      ctermfg=248   ctermbg=238  cterm=NONE
 
-hi  Title        guifg=#498994 guibg=NONE    gui=BOLD,ITALIC      ctermfg=68     ctermbg=NONE cterm=BOLD
+hi  Title        guifg=#498994 guibg=NONE    gui=BOLD,NONE      ctermfg=68     ctermbg=NONE cterm=BOLD
 hi  Visual       guifg=NONE    guibg=#262D51 gui=NONE      ctermfg=NONE  ctermbg=237  cterm=NONE
 
 hi  SpecialKey   guifg=#505050 guibg=#000000 gui=NONE      ctermfg=239   ctermbg=0    term=NONE
@@ -120,21 +117,21 @@ endif
 hi IncSearch      guifg=#101314 guibg=#21d0eb gui=NONE   ctermfg=234 ctermbg=6 cterm=NONE
 
 " Syntax highlighting
-hi Comment     guifg=#585858 guibg=NONE    gui=ITALIC   ctermfg=240   ctermbg=NONE cterm=NONE
+hi Comment     guifg=#585858 guibg=NONE    gui=NONE   ctermfg=240   ctermbg=NONE cterm=NONE
 hi String      guifg=#9fba4d guibg=NONE    gui=NONE   ctermfg=143 ctermbg=NONE cterm=NONE
 hi Number      guifg=#cf6a4c guibg=NONE    gui=NONE   ctermfg=130 ctermbg=NONE cterm=NONE
 
-hi Keyword     guifg=#ffb964 guibg=NONE    gui=ITALIC   ctermfg=214 ctermbg=NONE cterm=BOLD
+hi Keyword     guifg=#ffb964 guibg=NONE    gui=NONE   ctermfg=214 ctermbg=NONE cterm=BOLD
 hi PreProc     guifg=#2688bd guibg=NONE    gui=BOLD   ctermfg=75 ctermbg=NONE cterm=BOLD
 hi Conditional guifg=#ffb964 guibg=NONE    gui=NONE   ctermfg=214  ctermbg=NONE cterm=NONE
 
 hi Todo        guifg=#a1178a guibg=#e8db27 gui=BOLD,UNDERLINE   ctermfg=89  ctermbg=227  cterm=BOLD
-hi Constant    guifg=#de5833 guibg=NONE    gui=BOLD,ITALIC ctermfg=130 ctermbg=NONE cterm=BOLD
+hi Constant    guifg=#de5833 guibg=NONE    gui=BOLD,NONE ctermfg=130 ctermbg=NONE cterm=BOLD
 
 hi Identifier  guifg=#7e749c guibg=NONE    gui=NONE   ctermfg=104 ctermbg=NONE cterm=NONE
 hi Function    guifg=#edbf62 guibg=NONE    gui=BOLD   ctermfg=172 ctermbg=NONE cterm=BOLD
-hi Type        guifg=#b86e1e guibg=NONE    gui=BOLD,ITALIC   ctermfg=172 ctermbg=NONE cterm=BOLD
-hi Statement   guifg=#6894de guibg=NONE    gui=ITALIC   ctermfg=75 ctermbg=NONE cterm=NONE
+hi Type        guifg=#b86e1e guibg=NONE    gui=BOLD,NONE   ctermfg=172 ctermbg=NONE cterm=BOLD
+hi Statement   guifg=#6894de guibg=NONE    gui=NONE   ctermfg=75 ctermbg=NONE cterm=NONE
 
 hi Special     guifg=#458c27 guibg=NONE    gui=NONE   ctermfg=31 ctermbg=NONE cterm=NONE
 hi Delimiter   guifg=#668799 guibg=NONE    gui=NONE   ctermfg=74  ctermbg=NONE cterm=NONE
@@ -142,7 +139,7 @@ hi Operator    guifg=#6ab6ba guibg=NONE    gui=NONE   ctermfg=44 ctermbg=NONE ct
 
 " VimDiff colors
 hi DiffAdd     guifg=#fcfcfc guibg=#034a08    gui=NONE   ctermfg=250 ctermbg=22 cterm=NONE
-hi DiffChange  guifg=#e8e8d3 guibg=#65337a    gui=ITALIC   ctermfg=250 ctermbg=93 cterm=NONE
+hi DiffChange  guifg=#e8e8d3 guibg=#65337a    gui=NONE   ctermfg=250 ctermbg=93 cterm=NONE
 hi DiffDelete  guifg=#ff0000 guibg=#330000    gui=NONE   ctermfg=1 ctermbg=88 cterm=NONE
 hi DiffText    guifg=#000000 guibg=#b84fb8    gui=BOLD   ctermfg=232 ctermbg=207 cterm=BOLD
 
@@ -182,7 +179,6 @@ hi link Union   Ignore
 hi link VisualNOS   Ignore
 hi link phpStringDouble Ignore
 
-
 " Special for Ruby
 hi  rubyRegexp                 guifg=#B18A3D guibg=NONE gui=NONE ctermfg=137 ctermbg=NONE cterm=NONE
 hi  rubyRegexpDelimiter        guifg=#FF8000 guibg=NONE gui=NONE ctermfg=208 ctermbg=NONE cterm=NONE
@@ -212,7 +208,6 @@ hi link rubyGlobalVariable    Identifier
 hi link rubyClassVariable     Identifier
 hi link rubyConstant          Type
 
-
 " Special for Java
 " hi link javaClassDecl    Type
 hi link javaScopeDecl         Identifier
@@ -223,7 +218,6 @@ hi link javaDocSeeTagParam    javaDocSeeTag
 
 hi  javaDocSeeTag guifg=#CCCCCC guibg=NONE gui=NONE ctermfg=252 ctermbg=NONE cterm=NONE
 "hi javaClassDecl guifg=#CCFFCC guibg=NONE gui=NONE ctermfg=194 ctermbg=NONE cterm=NONE
-
 
 " Special for HTML
 hi htmlH1 guifg=#22aba4  guibg=NONE gui=UNDERLINE ctermfg=38  ctermbg=NONE cterm=BOLD
@@ -236,12 +230,10 @@ hi link htmlH2 htmlH1
 hi link htmlH3 htmlH1
 hi link htmlH4 htmlH1
 
-
 " Special for XML
 hi link xmlTag          Keyword
 hi link xmlTagName      htmlTagName
 hi link xmlEndTag       Identifier
-
 
 " Special for CSS
 hi cssTagName guifg=#70a8dd gui=BOLD  ctermfg=74 cterm=BOLD
@@ -249,8 +241,8 @@ hi cssBoxProp guifg=#d0af76  gui=NONE  ctermfg=180 gui=NONE
 hi link cssColorProp cssBoxProp
 hi link cssFontProp cssBoxProp
 hi link cssTextProp cssBoxProp
-hi cssPseudoClassId guifg=#9ccfdd gui=italic ctermfg=152 cterm=NONE
-hi cssIdentifier    guifg=#3fc493 gui=italic ctermfg=115 cterm=NONE
+hi cssPseudoClassId guifg=#9ccfdd gui=NONE ctermfg=152 cterm=NONE
+hi cssIdentifier    guifg=#3fc493 gui=NONE ctermfg=115 cterm=NONE
 
 " Special for Markdown
 hi link markdownUrl    htmlLink
@@ -258,13 +250,12 @@ hi markdownCode guifg=#a7bee4   gui=BOLD ctermfg=151 cterm=BOLD
 hi markdownCodeBlock guifg=#c5b1e4 ctermfg=182
 
 " Special for Javascript
-hi JavaScriptStrings     guifg=#26b3ac guibg=NONE gui=ITALIC ctermfg=45  ctermbg=NONE  cterm=NONE
+hi JavaScriptStrings     guifg=#26b3ac guibg=NONE gui=NONE ctermfg=45  ctermbg=NONE  cterm=NONE
 hi link javaScriptNumber      Number
 
 " Special for Python
 "hi  link pythonEscape         Keyword
-hi pythonBuiltin          guifg=#50bf95 guibg=NONE  gui=ITALIC ctermfg=42  cterm=UNDERLINE
-
+hi pythonBuiltin          guifg=#50bf95 guibg=NONE  gui=NONE ctermfg=42  cterm=UNDERLINE
 
 " Special for CSharp
 hi  link csXmlTag             Keyword
@@ -272,3 +263,5 @@ hi  link csXmlTag             Keyword
 " Special for PHP
 hi phpDefine  guifg=#ffc795    gui=BOLD ctermfg=209 cterm=BOLD
 hi phpStringSingle  guifg=#e8e8d3 guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE  cterm=NONE
+" bug gummybears colorscheme in the end of buffer
+highlight EndOfBuffer ctermbg=None
