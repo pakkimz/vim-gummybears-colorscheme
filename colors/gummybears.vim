@@ -265,3 +265,6 @@ hi phpDefine  guifg=#ffc795    gui=BOLD ctermfg=209 cterm=BOLD
 hi phpStringSingle  guifg=#e8e8d3 guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE  cterm=NONE
 " bug gummybears colorscheme in the end of buffer
 highlight EndOfBuffer ctermbg=None
+" vim quick-scope
+highlight QuickScopePrimary guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
+highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=underline
