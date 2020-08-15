@@ -224,14 +224,14 @@ hi htmlH1 guifg=#22aba4  guibg=NONE gui=UNDERLINE ctermfg=38  ctermbg=NONE cterm
 hi htmlLink guifg=#c777ff guibg=NONE gui=NONE ctermfg=171 ctermbg=NONE cterm=BOLD
 hi htmlString guifg=#799668 guibg=NONE gui=NONE ctermfg=100 ctermbg=NONE cterm=NONE
 hi htmlTagName guifg=#b097b0 guibg=NONE gui=NONE ctermfg=175 ctermbg=NONE cterm=NONE
-hi link htmlTag         Keyword
+hi link htmlTag         Identifier
 hi link htmlEndTag      Identifier
 hi link htmlH2 htmlH1
 hi link htmlH3 htmlH1
 hi link htmlH4 htmlH1
 
 " Special for XML
-hi link xmlTag          Keyword
+hi link xmlTag          Identifier
 hi link xmlTagName      htmlTagName
 hi link xmlEndTag       Identifier
 
