@@ -117,7 +117,7 @@ endif
 hi IncSearch      guifg=#101314 guibg=#21d0eb gui=NONE   ctermfg=234 ctermbg=6 cterm=NONE
 
 " Syntax highlighting
-hi Comment     guifg=#585858 guibg=NONE    gui=NONE   ctermfg=240   ctermbg=NONE cterm=NONE
+hi Comment     guifg=#585858 guibg=NONE    gui=ITALIC   ctermfg=240   ctermbg=NONE cterm=NONE
 hi String      guifg=#9fba4d guibg=NONE    gui=NONE   ctermfg=143 ctermbg=NONE cterm=NONE
 hi Number      guifg=#cf6a4c guibg=NONE    gui=NONE   ctermfg=130 ctermbg=NONE cterm=NONE
 
@@ -139,7 +139,7 @@ hi Operator    guifg=#6ab6ba guibg=NONE    gui=NONE   ctermfg=44 ctermbg=NONE ct
 
 " VimDiff colors
 hi DiffAdd     guifg=#fcfcfc guibg=#034a08    gui=NONE   ctermfg=250 ctermbg=22 cterm=NONE
-hi DiffChange  guifg=#e8e8d3 guibg=#65337a    gui=NONE   ctermfg=250 ctermbg=93 cterm=NONE
+hi DiffChange  guifg=#e8e8d3 guibg=#65337a    gui=ITALIC   ctermfg=250 ctermbg=93 cterm=NONE
 hi DiffDelete  guifg=#ff0000 guibg=#330000    gui=NONE   ctermfg=1 ctermbg=88 cterm=NONE
 hi DiffText    guifg=#000000 guibg=#b84fb8    gui=BOLD   ctermfg=232 ctermbg=207 cterm=BOLD
 
@@ -220,7 +220,7 @@ hi  javaDocSeeTag guifg=#CCCCCC guibg=NONE gui=NONE ctermfg=252 ctermbg=NONE cte
 "hi javaClassDecl guifg=#CCFFCC guibg=NONE gui=NONE ctermfg=194 ctermbg=NONE cterm=NONE
 
 " Special for HTML
-hi htmlH1 guifg=#22aba4  guibg=NONE gui=UNDERLINE ctermfg=38  ctermbg=NONE cterm=BOLD
+hi htmlH1 guifg=#22aba4  guibg=NONE gui=NONE ctermfg=38  ctermbg=NONE cterm=BOLD
 hi htmlLink guifg=#c777ff guibg=NONE gui=NONE ctermfg=171 ctermbg=NONE cterm=BOLD
 hi htmlString guifg=#799668 guibg=NONE gui=NONE ctermfg=100 ctermbg=NONE cterm=NONE
 hi htmlTagName guifg=#b097b0 guibg=NONE gui=NONE ctermfg=175 ctermbg=NONE cterm=NONE
