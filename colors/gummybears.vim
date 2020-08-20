@@ -87,6 +87,11 @@ hi  VertSplit    guifg=#202020 guibg=#202020 gui=NONE      ctermfg=234   ctermbg
 hi  StatusLine   guifg=#9cffd3 guibg=#202020 gui=NONE      ctermfg=85    ctermbg=234  cterm=NONE
 hi  StatusLineNC guifg=#000000 guibg=#202020 gui=bold      ctermfg=0     ctermbg=234  cterm=BOLD
 
+" hi  TabLineSel   guifg=#000000 guibg=#CDE9D9 gui=NONE      ctermfg=0		 ctermbg=0  cterm=NONE
+hi  TabLineSel   guifg=#000000 guibg=#CDC9E9 gui=NONE      ctermfg=0		 ctermbg=0  cterm=NONE
+hi  TabLine			 guifg=#888888 guibg=#202020 gui=NONE      ctermfg=0     ctermbg=0  cterm=NONE
+hi  TabLineFill	 guifg=NONE		 guibg=NONE		 gui=NONE      ctermfg=0     ctermbg=0  cterm=NONE
+
 hi  FoldColumn   guifg=#a0a8b0 guibg=#384048 gui=NONE      ctermfg=248   ctermbg=238  cterm=NONE
 hi  Folded       guifg=#a0a8b0 guibg=#384048 gui=NONE      ctermfg=248   ctermbg=238  cterm=NONE
 
