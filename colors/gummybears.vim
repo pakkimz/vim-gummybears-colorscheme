@@ -117,7 +117,8 @@ if version >= 700 " Vim 7.x specific colors
   hi MatchParen   guifg=#f6f3e8 guibg=#857b6f gui=BOLD      ctermfg=7    ctermbg=243 cterm=BOLD
   hi Pmenu        guifg=#f6f3e8 guibg=#444444 gui=NONE      ctermfg=7    ctermbg=238 cterm=NONE
   hi PmenuSel     guifg=#000000 guibg=#cae682 gui=NONE      ctermfg=0    ctermbg=186 cterm=NONE
-  hi Search       guifg=#f0a0c0 guibg=#302028 gui=UNDERLINE ctermfg=176  ctermbg=53  cterm=underline
+  " hi Search       guifg=#f0a0c0 guibg=#302028 gui=UNDERLINE ctermfg=176  ctermbg=53  cterm=underline
+  hi Search       guifg=#000000 guibg=#FF6C60 gui=BOLD ctermfg=176  ctermbg=53  cterm=BOLD
 endif
 
 hi IncSearch      guifg=#101314 guibg=#21d0eb gui=NONE   ctermfg=234 ctermbg=6 cterm=NONE
