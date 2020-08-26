@@ -86,7 +86,7 @@ hi  LineNr       guifg=#3D3D3D guibg=NONE		 gui=NONE      ctermfg=237   ctermbg=
 
 hi  VertSplit    guifg=#202020 guibg=#202020 gui=NONE      ctermfg=234   ctermbg=234  cterm=NONE
 hi  StatusLine   guifg=#9cffd3 guibg=#202020 gui=NONE      ctermfg=85    ctermbg=234  cterm=NONE
-hi  StatusLineNC guifg=#000000 guibg=#202020 gui=bold      ctermfg=0     ctermbg=234  cterm=BOLD
+hi  StatusLineNC guifg=#000000 guibg=#202020 gui=bold      ctermfg=0     ctermbg=234  cterm=NONE
 
 " hi  TabLineSel   guifg=#000000 guibg=#CDE9D9 gui=NONE      ctermfg=0		 ctermbg=0  cterm=NONE
 hi  TabLineSel   guifg=#000000 guibg=#CDC9E9 gui=NONE      ctermfg=0		 ctermbg=0  cterm=NONE
@@ -96,7 +96,7 @@ hi  TabLineFill	 guifg=NONE		 guibg=NONE		 gui=NONE      ctermfg=0     ctermbg=0
 hi  FoldColumn   guifg=#a0a8b0 guibg=#384048 gui=NONE      ctermfg=248   ctermbg=238  cterm=NONE
 hi  Folded       guifg=#a0a8b0 guibg=#384048 gui=NONE      ctermfg=248   ctermbg=238  cterm=NONE
 
-hi  Title        guifg=#498994 guibg=NONE    gui=BOLD,NONE      ctermfg=68     ctermbg=NONE cterm=BOLD
+hi  Title        guifg=#498994 guibg=NONE    gui=NONE      ctermfg=68     ctermbg=NONE cterm=NONE
 hi  Visual       guifg=NONE    guibg=#262D51 gui=NONE      ctermfg=NONE  ctermbg=237  cterm=NONE
 
 hi  SpecialKey   guifg=#505050 guibg=#000000 gui=NONE      ctermfg=239   ctermbg=0    term=NONE
@@ -105,20 +105,20 @@ hi  WildMenu     guifg=#28882c guibg=#f0f000 gui=NONE      ctermfg=28    ctermbg
 hi  PmenuSbar    guifg=#000000 guibg=#ffffff gui=NONE      ctermfg=0     ctermbg=15   cterm=NONE
 
 hi  Error        guifg=NONE    guibg=NONE    gui=UNDERCURL guisp=#FF6C60 ctermfg=15   ctermbg=88    cterm=NONE
-hi  ErrorMsg     guifg=#e8e8d3 guibg=#902020  gui=BOLD      ctermfg=15    ctermbg=203  cterm=BOLD
-hi  WarningMsg   guifg=#ffffff guibg=#ff8cc2  gui=BOLD      ctermfg=15    ctermbg=203  cterm=BOLD
+hi  ErrorMsg     guifg=#e8e8d3 guibg=#902020  gui=NONE      ctermfg=15    ctermbg=203  cterm=NONE
+hi  WarningMsg   guifg=#ffffff guibg=#ff8cc2  gui=NONE      ctermfg=15    ctermbg=203  cterm=NONE
 
 " Message displayed in lower left, such as --INSERT--
-hi ModeMsg          guifg=#000000  guibg=#C6C5FE gui=BOLD     ctermfg=0 ctermbg=189 cterm=BOLD
+hi ModeMsg          guifg=#000000  guibg=#C6C5FE gui=NONE     ctermfg=0 ctermbg=189 cterm=NONE
 
 if version >= 700 " Vim 7.x specific colors
   hi CursorLine   guifg=NONE    guibg=#000000 gui=NONE      ctermfg=NONE ctermbg=16  cterm=NONE
-  hi CursorColumn guifg=NONE    guibg=#121212 gui=NONE      ctermfg=NONE ctermbg=233 cterm=BOLD
-  hi MatchParen   guifg=#f6f3e8 guibg=#857b6f gui=BOLD      ctermfg=7    ctermbg=243 cterm=BOLD
+  hi CursorColumn guifg=NONE    guibg=#121212 gui=NONE      ctermfg=NONE ctermbg=233 cterm=NONE
+  hi MatchParen   guifg=#f6f3e8 guibg=#857b6f gui=NONE      ctermfg=7    ctermbg=243 cterm=NONE
   hi Pmenu        guifg=#f6f3e8 guibg=#444444 gui=NONE      ctermfg=7    ctermbg=238 cterm=NONE
   hi PmenuSel     guifg=#000000 guibg=#cae682 gui=NONE      ctermfg=0    ctermbg=186 cterm=NONE
   " hi Search       guifg=#f0a0c0 guibg=#302028 gui=UNDERLINE ctermfg=176  ctermbg=53  cterm=underline
-  hi Search       guifg=#000000 guibg=#FF6C60 gui=BOLD ctermfg=176  ctermbg=53  cterm=BOLD
+  hi Search       guifg=#000000 guibg=#FF6C60 gui=NONE ctermfg=176  ctermbg=53  cterm=NONE
 endif
 
 hi IncSearch      guifg=#101314 guibg=#21d0eb gui=NONE   ctermfg=234 ctermbg=6 cterm=NONE
