@@ -80,8 +80,8 @@ endif
 hi  Normal       guifg=#ababa4 guibg=#0d0c0d gui=NONE      ctermfg=251   ctermbg=233  cterm=NONE
 hi  NonText      guifg=#a800a8 guibg=#000000 gui=NONE      ctermfg=206   ctermbg=0    cterm=NONE
 
-hi  Cursor       guifg=#000000 guibg=#f0f000 gui=NONE      ctermfg=0     ctermbg=11   cterm=reverse
-" hi  LineNr       guifg=#3D3D3D guibg=#000000 gui=NONE      ctermfg=237   ctermbg=0    cterm=NONE
+" hi  Cursor       guifg=#000000 guibg=#f0f000 gui=NONE      ctermfg=0     ctermbg=11   cterm=reverse
+hi  CursorLineNr guifg=#CDC9E9 guibg=NONE    gui=NONE      ctermfg=0     ctermbg=11   cterm=reverse
 hi  LineNr       guifg=#3D3D3D guibg=NONE		 gui=NONE      ctermfg=237   ctermbg=0    cterm=NONE
 
 hi  VertSplit    guifg=#202020 guibg=#202020 gui=NONE      ctermfg=234   ctermbg=234  cterm=NONE
