@@ -84,7 +84,8 @@ hi  NonText      guifg=#a800a8 guibg=#000000 gui=NONE      ctermfg=206   ctermbg
 hi  CursorLineNr guifg=#CDC9E9 guibg=NONE    gui=NONE      ctermfg=0     ctermbg=11   cterm=reverse
 hi  LineNr       guifg=#3D3D3D guibg=NONE		 gui=NONE      ctermfg=237   ctermbg=0    cterm=NONE
 
-hi  VertSplit    guifg=#202020 guibg=#202020 gui=NONE      ctermfg=234   ctermbg=234  cterm=NONE
+" hi  VertSplit    guifg=#202020 guibg=#202020 gui=NONE      ctermfg=234   ctermbg=234  cterm=NONE
+hi  VertSplit    guifg=#202020 guibg=NONE    gui=NONE      ctermfg=234   ctermbg=234  cterm=NONE
 " hi  StatusLine   guifg=#9cffd3 guibg=#202020 gui=NONE      ctermfg=85    ctermbg=234  cterm=NONE
 " hi  StatusLine   guifg=#000000 guibg=#CDC9E9 gui=NONE      ctermfg=85    ctermbg=234  cterm=NONE
 hi  StatusLine   guifg=#CDC9E9 guibg=#202020 gui=NONE      ctermfg=85    ctermbg=234  cterm=NONE
@@ -274,6 +275,3 @@ hi phpDefine  guifg=#ffc795    gui=NONE ctermfg=209 cterm=NONE
 hi phpStringSingle  guifg=#e8e8d3 guibg=NONE gui=NONE ctermfg=250 ctermbg=NONE  cterm=NONE
 " bug gummybears colorscheme in the end of buffer
 highlight EndOfBuffer ctermbg=None
-" vim quick-scope
-highlight QuickScopePrimary guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
-highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=underline
