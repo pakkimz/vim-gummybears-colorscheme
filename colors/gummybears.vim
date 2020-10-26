@@ -85,7 +85,7 @@ hi  LineNr       guifg=#3D3D3D guibg=NONE		 gui=NONE      ctermfg=237   ctermbg=
 
 hi  VertSplit    guifg=#202020 guibg=NONE    gui=NONE      ctermfg=234   ctermbg=234  cterm=NONE
 hi  StatusLine   guifg=#CDE9D9 guibg=#151515 gui=NONE      ctermfg=85    ctermbg=234  cterm=NONE
-hi  StatusLineNC guifg=#A69460 guibg=#151515 gui=bold      ctermfg=0     ctermbg=234  cterm=NONE
+hi  StatusLineNC guifg=#A69460 guibg=#151515 gui=NONE      ctermfg=0     ctermbg=234  cterm=NONE
 
 hi  TabLineSel   guifg=#000000 guibg=#CDC9E9 gui=NONE      ctermfg=0		 ctermbg=0    cterm=NONE
 hi  TabLine			 guifg=#888888 guibg=#202020 gui=NONE      ctermfg=0     ctermbg=0    cterm=NONE
