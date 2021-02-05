@@ -90,7 +90,7 @@ hi  StatusLineNC guifg=#A69460 guibg=#151515 gui=NONE      ctermfg=0     ctermbg
 
 hi  TabLineSel   guifg=#000000 guibg=#CDC9E9 gui=NONE      ctermfg=0		 ctermbg=0    cterm=NONE
 hi  TabLine			 guifg=#888888 guibg=#202020 gui=NONE      ctermfg=0     ctermbg=0    cterm=NONE
-hi  TabLineFill  guifg=#000000 guibg=#202020 gui=bold      ctermfg=0     ctermbg=234  cterm=NONE
+hi  TabLineFill  guifg=#000000 guibg=#202020 gui=NONE      ctermfg=0     ctermbg=234  cterm=NONE
 
 hi  FoldColumn   guifg=#a0a8b0 guibg=#384048 gui=NONE      ctermfg=248   ctermbg=238  cterm=NONE
 hi  Folded       guifg=#a0a8b0 guibg=#384048 gui=NONE      ctermfg=248   ctermbg=238  cterm=NONE
@@ -100,7 +100,7 @@ hi  Visual       guifg=NONE    guibg=#262D51 gui=NONE      ctermfg=NONE  ctermbg
 
 hi  SpecialKey   guifg=#505050 guibg=#000000 gui=NONE      ctermfg=239   ctermbg=0    term=NONE
 
-hi  WildMenu     guifg=#28882c guibg=#f0f000 gui=NONE      ctermfg=28    ctermbg=11   cterm=NONE
+hi  WildMenu     guifg=#000000 guibg=#f0f000 gui=NONE      ctermfg=28    ctermbg=11   cterm=NONE
 hi  PmenuSbar    guifg=#000000 guibg=#ffffff gui=NONE      ctermfg=0     ctermbg=15   cterm=NONE
 
 hi  Error        guifg=NONE    guibg=NONE    gui=UNDERCURL guisp=#FF6C60 ctermfg=15   ctermbg=88    cterm=NONE
@@ -123,7 +123,7 @@ endif
 hi IncSearch      guifg=#101314 guibg=#B18A3D gui=NONE ctermfg=234 ctermbg=6 cterm=NONE
 
 " Syntax highlighting
-hi Comment     guifg=#585858 guibg=NONE    gui=ITALIC   ctermfg=240   ctermbg=NONE cterm=NONE
+hi Comment     guifg=#585858 guibg=NONE    gui=NONE   ctermfg=240   ctermbg=NONE cterm=NONE
 hi String      guifg=#9fba4d guibg=NONE    gui=NONE   ctermfg=143 ctermbg=NONE cterm=NONE
 hi Number      guifg=#cf6a4c guibg=NONE    gui=NONE   ctermfg=130 ctermbg=NONE cterm=NONE
 
@@ -131,7 +131,7 @@ hi Keyword     guifg=#ffb964 guibg=NONE    gui=NONE   ctermfg=214 ctermbg=NONE c
 hi PreProc     guifg=#2688bd guibg=NONE    gui=NONE   ctermfg=75 ctermbg=NONE cterm=NONE
 hi Conditional guifg=#ffb964 guibg=NONE    gui=NONE   ctermfg=214  ctermbg=NONE cterm=NONE
 
-hi Todo        guifg=#a1178a guibg=#e8db27 gui=NONE,UNDERLINE   ctermfg=89  ctermbg=227  cterm=NONE
+hi Todo        guifg=#a1178a guibg=#e8db27 gui=NONE,NONE   ctermfg=89  ctermbg=227  cterm=NONE
 hi Constant    guifg=#de5833 guibg=NONE    gui=NONE,NONE ctermfg=130 ctermbg=NONE cterm=NONE
 
 hi Identifier  guifg=#7e749c guibg=NONE    gui=NONE   ctermfg=104 ctermbg=NONE cterm=NONE
@@ -145,7 +145,7 @@ hi Operator    guifg=#6ab6ba guibg=NONE    gui=NONE   ctermfg=44 ctermbg=NONE ct
 
 " VimDiff colors
 hi DiffAdd     guifg=#fcfcfc guibg=#034a08    gui=NONE   ctermfg=250 ctermbg=22 cterm=NONE
-hi DiffChange  guifg=#e8e8d3 guibg=#65337a    gui=ITALIC   ctermfg=250 ctermbg=93 cterm=NONE
+hi DiffChange  guifg=#e8e8d3 guibg=#65337a    gui=NONE   ctermfg=250 ctermbg=93 cterm=NONE
 hi DiffDelete  guifg=#ff0000 guibg=#330000    gui=NONE   ctermfg=1 ctermbg=88 cterm=NONE
 hi DiffText    guifg=#000000 guibg=#b84fb8    gui=NONE   ctermfg=232 ctermbg=207 cterm=NONE
 
@@ -261,7 +261,7 @@ hi link javaScriptNumber      Number
 
 " Special for Python
 "hi  link pythonEscape         Keyword
-hi pythonBuiltin          guifg=#50bf95 guibg=NONE  gui=NONE ctermfg=42  cterm=UNDERLINE
+hi pythonBuiltin          guifg=#50bf95 guibg=NONE  gui=NONE ctermfg=42  cterm=NONE
 
 " Special for CSharp
 hi  link csXmlTag             Keyword
