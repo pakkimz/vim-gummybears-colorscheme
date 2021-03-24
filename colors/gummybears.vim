@@ -116,11 +116,12 @@ if version >= 700 " Vim 7.x specific colors
   hi MatchParen   guifg=#f6f3e8 guibg=#857b6f gui=NONE      ctermfg=7    ctermbg=243 cterm=NONE
   hi Pmenu        guifg=#f6f3e8 guibg=#444444 gui=NONE      ctermfg=7    ctermbg=238 cterm=NONE
   hi PmenuSel     guifg=#000000 guibg=#cae682 gui=NONE      ctermfg=0    ctermbg=186 cterm=NONE
-  " hi Search       guifg=#f0a0c0 guibg=#302028 gui=UNDERLINE ctermfg=176  ctermbg=53  cterm=underline
-  hi Search       guifg=#101314 guibg=#B18A3D gui=NONE ctermfg=234 ctermbg=6 cterm=NONE
+  hi Search       guifg=#f0a0c0 guibg=#302028 gui=UNDERLINE ctermfg=176  ctermbg=53  cterm=underline
+  " hi Search       guifg=#101314 guibg=#B18A3D gui=NONE ctermfg=234 ctermbg=6 cterm=NONE
 endif
 
-hi IncSearch      guifg=#101314 guibg=#B18A3D gui=NONE ctermfg=234 ctermbg=6 cterm=NONE
+" hi IncSearch      guifg=#101314 guibg=#B18A3D gui=NONE ctermfg=234 ctermbg=6 cterm=NONE
+hi IncSearch       guifg=#f0a0c0 guibg=#302028 gui=UNDERLINE ctermfg=234 ctermbg=6 cterm=NONE
 
 " Syntax highlighting
 hi Comment     guifg=#585858 guibg=NONE    gui=NONE   ctermfg=240   ctermbg=NONE cterm=NONE
