@@ -100,7 +100,7 @@ hi  Visual       guifg=NONE    guibg=#262D51 gui=NONE      ctermfg=NONE  ctermbg
 
 hi  SpecialKey   guifg=#505050 guibg=#000000 gui=NONE      ctermfg=239   ctermbg=0    term=NONE
 
-hi  WildMenu     guifg=#000000 guibg=#C6C5FE gui=NONE      ctermfg=28    ctermbg=11   cterm=NONE
+hi  WildMenu     guifg=#101010 guibg=#FFFFB6 gui=NONE      ctermfg=28    ctermbg=11   cterm=NONE
 hi  PmenuSbar    guifg=#000000 guibg=#ffffff gui=NONE      ctermfg=0     ctermbg=15   cterm=NONE
 
 hi  Error        guifg=NONE    guibg=NONE    gui=UNDERCURL guisp=#FF6C60 ctermfg=15   ctermbg=88    cterm=NONE
